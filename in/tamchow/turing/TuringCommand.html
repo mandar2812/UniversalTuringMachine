@@ -1,9 +1,9 @@
 <!DOCTYPE html >
 <html>
         <head>
-          <title>UniversalTuringMachine - Universal Turing Machine - in.tamchow.turing.UniversalTuringMachine</title>
-          <meta name="description" content="UniversalTuringMachine - Universal Turing Machine - in.tamchow.turing.UniversalTuringMachine" />
-          <meta name="keywords" content="UniversalTuringMachine Universal Turing Machine in.tamchow.turing.UniversalTuringMachine" />
+          <title>TuringCommand - Universal Turing Machine - in.tamchow.turing.TuringCommand</title>
+          <meta name="description" content="TuringCommand - Universal Turing Machine - in.tamchow.turing.TuringCommand" />
+          <meta name="keywords" content="TuringCommand Universal Turing Machine in.tamchow.turing.TuringCommand" />
           <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
           
       <link href="../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
@@ -16,7 +16,7 @@
       <script type="text/javascript">
          if(top === self) {
             var url = '../../../index.html';
-            var hash = 'in.tamchow.turing.UniversalTuringMachine';
+            var hash = 'in.tamchow.turing.TuringCommand';
             var anchor = window.location.hash;
             var anchor_opt = '';
             if (anchor.length >= 1)
@@ -28,14 +28,14 @@
         </head>
         <body class="type">
       <div id="definition">
-        <a href="UniversalTuringMachine$.html" title="See companion object"><img alt="Class/Object" src="../../../lib/class_to_object_big.png" /></a>
+        <a href="TuringCommand$.html" title="See companion object"><img alt="Class/Object" src="../../../lib/class_to_object_big.png" /></a>
         <p id="owner"><a href="../../package.html" class="extype" name="in">in</a>.<a href="../package.html" class="extype" name="in.tamchow">tamchow</a>.<a href="package.html" class="extype" name="in.tamchow.turing">turing</a></p>
-        <h1><a href="UniversalTuringMachine$.html" title="See companion object">UniversalTuringMachine</a></h1><h3><span class="morelinks"><div>
+        <h1><a href="TuringCommand$.html" title="See companion object">TuringCommand</a></h1><h3><span class="morelinks"><div>
             Related Docs:
-            <a href="UniversalTuringMachine$.html" title="See companion object">object UniversalTuringMachine</a>
+            <a href="TuringCommand$.html" title="See companion object">object TuringCommand</a>
             | <a href="package.html" class="extype" name="in.tamchow.turing">package turing</a>
           </div></span></h3><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -47,12 +47,11 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <span class="name">UniversalTuringMachine</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+        <span class="name">TuringCommand</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>Represents a universal Turing Machine
-</p></div><div class="toggleContainer block">
+          <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
           <span class="toggle">Linear Supertypes</span>
           <div class="superTypes hiddenContent"><span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
         </div></div>
@@ -72,7 +71,7 @@
                 <span class="filtertype">Inherited<br />
                 </span>
                 <ol id="linearization">
-                  <li class="in" name="in.tamchow.turing.UniversalTuringMachine"><span>UniversalTuringMachine</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                  <li class="in" name="in.tamchow.turing.TuringCommand"><span>TuringCommand</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
                 </ol>
               </div><div id="ancestors">
                 <span class="filtertype">Implicitly<br />
@@ -96,19 +95,36 @@
         <div id="allMembers">
         <div id="constructors" class="members">
               <h3>Instance Constructors</h3>
-              <ol><li name="in.tamchow.turing.UniversalTuringMachine#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="&lt;init&gt;(commands:List[in.tamchow.turing.TuringCommand],initialState:String,terminalStates:List[String],tapeSize:Int):in.tamchow.turing.UniversalTuringMachine"></a>
-      <a id="&lt;init&gt;:UniversalTuringMachine"></a>
+              <ol><li name="in.tamchow.turing.TuringCommand#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="&lt;init&gt;(data:(String,String,String,String,in.tamchow.turing.MoveDirection.MoveDirection)):in.tamchow.turing.TuringCommand"></a>
+      <a id="&lt;init&gt;:TuringCommand"></a>
       <h4 class="signature">
       <span class="modifier_kind">
         <span class="modifier"></span>
         <span class="kind">new</span>
       </span>
       <span class="symbol">
-        <span class="name">UniversalTuringMachine</span><span class="params">(<span name="commands">commands: <span class="extype" name="scala.List">List</span>[<a href="TuringCommand.html" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>]</span>, <span name="initialState">initialState: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="terminalStates">terminalStates: <span class="extype" name="scala.List">List</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>, <span name="tapeSize">tapeSize: <span class="extype" name="scala.Int">Int</span></span>)</span>
+        <span class="name">TuringCommand</span><span class="params">(<span name="data">data: (<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="scala.Predef.String">String</span>, <a href="MoveDirection$.html#MoveDirection=in.tamchow.turing.MoveDirection.Value" class="extmbr" name="in.tamchow.turing.MoveDirection.MoveDirection">MoveDirection.MoveDirection</a>)</span>)</span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@&lt;init&gt;(commands:List[in.tamchow.turing.TuringCommand],initialState:String,terminalStates:List[String],tapeSize:Int):in.tamchow.turing.UniversalTuringMachine" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@&lt;init&gt;(data:(String,String,String,String,in.tamchow.turing.MoveDirection.MoveDirection)):in.tamchow.turing.TuringCommand" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="in.tamchow.turing.TuringCommand#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="&lt;init&gt;(currentStateP:String,nextStateP:String,currentValueP:String,nextValueP:String,directionP:in.tamchow.turing.MoveDirection.MoveDirection):in.tamchow.turing.TuringCommand"></a>
+      <a id="&lt;init&gt;:TuringCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">new</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TuringCommand</span><span class="params">(<span name="currentStateP">currentStateP: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="nextStateP">nextStateP: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="currentValueP">currentValueP: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="nextValueP">nextValueP: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="directionP">directionP: <a href="MoveDirection$.html#MoveDirection=in.tamchow.turing.MoveDirection.Value" class="extmbr" name="in.tamchow.turing.MoveDirection.MoveDirection">MoveDirection.MoveDirection</a></span>)</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@&lt;init&gt;(currentStateP:String,nextStateP:String,currentValueP:String,nextValueP:String,directionP:in.tamchow.turing.MoveDirection.MoveDirection):in.tamchow.turing.TuringCommand" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -134,7 +150,7 @@
         <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@!=(x$1:Any):Boolean" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@!=(x$1:Any):Boolean" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -151,7 +167,7 @@
         <span title="gt4s: $hash$hash" class="name">##</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@##():Int" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@##():Int" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -168,34 +184,34 @@
         <span title="gt4s: $plus" class="implicit">+</span><span class="params">(<span name="other">other: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@+(other:String):String" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@+(other:String):String" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt class="implicit">Implicit information</dt><dd>
-            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a> to
-            <span class="extype" name="scala.Predef.any2stringadd">any2stringadd</span>[<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>] performed by method any2stringadd in scala.Predef.
+            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> to
+            <span class="extype" name="scala.Predef.any2stringadd">any2stringadd</span>[<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>] performed by method any2stringadd in scala.Predef.
             
           </dd><dt>Definition Classes</dt><dd>any2stringadd</dd></dl></div>
     </li><li name="scala.Predef.ArrowAssoc#-&gt;" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="-&gt;[B](y:B):(A,B)"></a>
-      <a id="-&gt;[B](B):(UniversalTuringMachine,B)"></a>
+      <a id="-&gt;[B](B):(TuringCommand,B)"></a>
       <h4 class="signature">
       <span class="modifier_kind">
         <span class="modifier"></span>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span title="gt4s: $minus$greater" class="implicit">-&gt;</span><span class="tparams">[<span name="B">B</span>]</span><span class="params">(<span name="y">y: <span class="extype" name="scala.Predef.ArrowAssoc.-&gt;.B">B</span></span>)</span><span class="result">: (<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>, <span class="extype" name="scala.Predef.ArrowAssoc.-&gt;.B">B</span>)</span>
+        <span title="gt4s: $minus$greater" class="implicit">-&gt;</span><span class="tparams">[<span name="B">B</span>]</span><span class="params">(<span name="y">y: <span class="extype" name="scala.Predef.ArrowAssoc.-&gt;.B">B</span></span>)</span><span class="result">: (<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>, <span class="extype" name="scala.Predef.ArrowAssoc.-&gt;.B">B</span>)</span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@-&gt;[B](y:B):(A,B)" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@-&gt;[B](y:B):(A,B)" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt class="implicit">Implicit information</dt><dd>
-            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a> to
-            <span class="extype" name="scala.Predef.ArrowAssoc">ArrowAssoc</span>[<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>] performed by method ArrowAssoc in scala.Predef.
+            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> to
+            <span class="extype" name="scala.Predef.ArrowAssoc">ArrowAssoc</span>[<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>] performed by method ArrowAssoc in scala.Predef.
             
           </dd><dt>Definition Classes</dt><dd>ArrowAssoc</dd><dt>Annotations</dt><dd>
                 <span class="name">@inline</span><span class="args">()</span>
@@ -213,7 +229,7 @@
         <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@==(x$1:Any):Boolean" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@==(x$1:Any):Boolean" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -230,30 +246,11 @@
         <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Any.asInstanceOf.T0">T0</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@asInstanceOf[T0]:T0" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@asInstanceOf[T0]:T0" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
-    </li><li name="in.tamchow.turing.UniversalTuringMachine#bounded" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="bounded():Int"></a>
-      <a id="bounded():Int"></a>
-      <h4 class="signature">
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">def</span>
-      </span>
-      <span class="symbol">
-        <span class="name">bounded</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
-      </span>
-      </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@bounded():Int" title="Permalink" target="_top">
-        <img src="../../../lib/permalink.png" alt="Permalink" />
-      </a>
-    </span>
-      <p class="shortcomment cmt">Implements <span class="extype" name="Array">Array</span> wraparound
-</p><div class="fullcomment"><div class="comment cmt"><p>Implements <span class="extype" name="Array">Array</span> wraparound
-</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p><span class="extype" name="head">head</span>, after bounds correction</p></dd></dl></div>
     </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="clone():Object"></a>
       <a id="clone():AnyRef"></a>
@@ -266,7 +263,7 @@
         <span class="name">clone</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@clone():Object" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@clone():Object" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -277,88 +274,139 @@
     </span>)</span>
               
         </dd></dl></div>
-    </li><li name="scala.Predef.Ensuring#ensuring" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="ensuring(cond:A=&gt;Boolean,msg:=&gt;Any):A"></a>
-      <a id="ensuring((UniversalTuringMachine)⇒Boolean,⇒Any):UniversalTuringMachine"></a>
+    </li><li name="in.tamchow.turing.TuringCommand#currentState" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="currentState:String"></a>
+      <a id="currentState:String"></a>
       <h4 class="signature">
       <span class="modifier_kind">
         <span class="modifier"></span>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="implicit">ensuring</span><span class="params">(<span name="cond">cond: (<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>, <span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a></span>
+        <span class="name">currentState</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@ensuring(cond:A=&gt;Boolean,msg:=&gt;Any):A" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@currentState:String" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="in.tamchow.turing.TuringCommand#currentValue" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="currentValue:String"></a>
+      <a id="currentValue:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">currentValue</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@currentValue:String" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="in.tamchow.turing.TuringCommand#direction" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="direction:in.tamchow.turing.MoveDirection.MoveDirection"></a>
+      <a id="direction:MoveDirection.MoveDirection"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">direction</span><span class="result">: <a href="MoveDirection$.html#MoveDirection=in.tamchow.turing.MoveDirection.Value" class="extmbr" name="in.tamchow.turing.MoveDirection.MoveDirection">MoveDirection.MoveDirection</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@direction:in.tamchow.turing.MoveDirection.MoveDirection" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scala.Predef.Ensuring#ensuring" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ensuring(cond:A=&gt;Boolean,msg:=&gt;Any):A"></a>
+      <a id="ensuring((TuringCommand)⇒Boolean,⇒Any):TuringCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="implicit">ensuring</span><span class="params">(<span name="cond">cond: (<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>, <span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@ensuring(cond:A=&gt;Boolean,msg:=&gt;Any):A" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt class="implicit">Implicit information</dt><dd>
-            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a> to
-            <span class="extype" name="scala.Predef.Ensuring">Ensuring</span>[<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>] performed by method Ensuring in scala.Predef.
+            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> to
+            <span class="extype" name="scala.Predef.Ensuring">Ensuring</span>[<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>] performed by method Ensuring in scala.Predef.
             
           </dd><dt>Definition Classes</dt><dd>Ensuring</dd></dl></div>
     </li><li name="scala.Predef.Ensuring#ensuring" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="ensuring(cond:A=&gt;Boolean):A"></a>
-      <a id="ensuring((UniversalTuringMachine)⇒Boolean):UniversalTuringMachine"></a>
+      <a id="ensuring((TuringCommand)⇒Boolean):TuringCommand"></a>
       <h4 class="signature">
       <span class="modifier_kind">
         <span class="modifier"></span>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="implicit">ensuring</span><span class="params">(<span name="cond">cond: (<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a></span>
+        <span class="implicit">ensuring</span><span class="params">(<span name="cond">cond: (<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@ensuring(cond:A=&gt;Boolean):A" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@ensuring(cond:A=&gt;Boolean):A" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt class="implicit">Implicit information</dt><dd>
-            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a> to
-            <span class="extype" name="scala.Predef.Ensuring">Ensuring</span>[<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>] performed by method Ensuring in scala.Predef.
+            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> to
+            <span class="extype" name="scala.Predef.Ensuring">Ensuring</span>[<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>] performed by method Ensuring in scala.Predef.
             
           </dd><dt>Definition Classes</dt><dd>Ensuring</dd></dl></div>
     </li><li name="scala.Predef.Ensuring#ensuring" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="ensuring(cond:Boolean,msg:=&gt;Any):A"></a>
-      <a id="ensuring(Boolean,⇒Any):UniversalTuringMachine"></a>
+      <a id="ensuring(Boolean,⇒Any):TuringCommand"></a>
       <h4 class="signature">
       <span class="modifier_kind">
         <span class="modifier"></span>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="implicit">ensuring</span><span class="params">(<span name="cond">cond: <span class="extype" name="scala.Boolean">Boolean</span></span>, <span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a></span>
+        <span class="implicit">ensuring</span><span class="params">(<span name="cond">cond: <span class="extype" name="scala.Boolean">Boolean</span></span>, <span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@ensuring(cond:Boolean,msg:=&gt;Any):A" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@ensuring(cond:Boolean,msg:=&gt;Any):A" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt class="implicit">Implicit information</dt><dd>
-            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a> to
-            <span class="extype" name="scala.Predef.Ensuring">Ensuring</span>[<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>] performed by method Ensuring in scala.Predef.
+            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> to
+            <span class="extype" name="scala.Predef.Ensuring">Ensuring</span>[<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>] performed by method Ensuring in scala.Predef.
             
           </dd><dt>Definition Classes</dt><dd>Ensuring</dd></dl></div>
     </li><li name="scala.Predef.Ensuring#ensuring" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="ensuring(cond:Boolean):A"></a>
-      <a id="ensuring(Boolean):UniversalTuringMachine"></a>
+      <a id="ensuring(Boolean):TuringCommand"></a>
       <h4 class="signature">
       <span class="modifier_kind">
         <span class="modifier"></span>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="implicit">ensuring</span><span class="params">(<span name="cond">cond: <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a></span>
+        <span class="implicit">ensuring</span><span class="params">(<span name="cond">cond: <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@ensuring(cond:Boolean):A" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@ensuring(cond:Boolean):A" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt class="implicit">Implicit information</dt><dd>
-            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a> to
-            <span class="extype" name="scala.Predef.Ensuring">Ensuring</span>[<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>] performed by method Ensuring in scala.Predef.
+            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> to
+            <span class="extype" name="scala.Predef.Ensuring">Ensuring</span>[<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>] performed by method Ensuring in scala.Predef.
             
           </dd><dt>Definition Classes</dt><dd>Ensuring</dd></dl></div>
     </li><li name="scala.AnyRef#eq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
@@ -373,13 +421,13 @@
         <span class="name">eq</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@eq(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@eq(x$1:AnyRef):Boolean" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
-    </li><li name="scala.AnyRef#equals" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="equals(x$1:Any):Boolean"></a>
+    </li><li name="in.tamchow.turing.TuringCommand#equals" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="equals(that:Any):Boolean"></a>
       <a id="equals(Any):Boolean"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -387,14 +435,14 @@
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">equals</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+        <span class="name">equals</span><span class="params">(<span name="that">that: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@equals(x$1:Any):Boolean" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@equals(that:Any):Boolean" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> → AnyRef → Any</dd></dl></div>
     </li><li name="scala.AnyRef#finalize" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="finalize():Unit"></a>
       <a id="finalize():Unit"></a>
@@ -407,7 +455,7 @@
         <span class="name">finalize</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@finalize():Unit" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@finalize():Unit" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -430,13 +478,13 @@
         <span class="implicit">formatted</span><span class="params">(<span name="fmtstr">fmtstr: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@formatted(fmtstr:String):String" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@formatted(fmtstr:String):String" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt class="implicit">Implicit information</dt><dd>
-            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a> to
-            <span class="extype" name="scala.Predef.StringFormat">StringFormat</span>[<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>] performed by method StringFormat in scala.Predef.
+            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> to
+            <span class="extype" name="scala.Predef.StringFormat">StringFormat</span>[<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>] performed by method StringFormat in scala.Predef.
             
           </dd><dt>Definition Classes</dt><dd>StringFormat</dd><dt>Annotations</dt><dd>
                 <span class="name">@inline</span><span class="args">()</span>
@@ -454,12 +502,12 @@
         <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.Class">Class</span>[_]</span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@getClass():Class[_]" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@getClass():Class[_]" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
-    </li><li name="scala.AnyRef#hashCode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+    </li><li name="in.tamchow.turing.TuringCommand#hashCode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="hashCode():Int"></a>
       <a id="hashCode():Int"></a>
       <h4 class="signature">
@@ -471,30 +519,11 @@
         <span class="name">hashCode</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@hashCode():Int" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@hashCode():Int" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
-    </li><li name="in.tamchow.turing.UniversalTuringMachine#isApplicable" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="isApplicable(state:in.tamchow.turing.TuringCommand):Boolean"></a>
-      <a id="isApplicable(TuringCommand):Boolean"></a>
-      <h4 class="signature">
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">def</span>
-      </span>
-      <span class="symbol">
-        <span class="name">isApplicable</span><span class="params">(<span name="state">state: <a href="TuringCommand.html" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
-      </span>
-      </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@isApplicable(state:in.tamchow.turing.TuringCommand):Boolean" title="Permalink" target="_top">
-        <img src="../../../lib/permalink.png" alt="Permalink" />
-      </a>
-    </span>
-      <p class="shortcomment cmt">Helper function for filtering available commands by applicability
-</p><div class="fullcomment"><div class="comment cmt"><p>Helper function for filtering available commands by applicability
-</p></div><dl class="paramcmts block"><dt class="param">state</dt><dd class="cmt"><p>The state to check for applicability with the current execution environment</p></dd><dt>returns</dt><dd class="cmt"><p>true if the state is applicable, false if it isn't</p></dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> → AnyRef → Any</dd></dl></div>
     </li><li name="scala.Any#isInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="isInstanceOf[T0]:Boolean"></a>
       <a id="isInstanceOf[T0]:Boolean"></a>
@@ -507,7 +536,7 @@
         <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@isInstanceOf[T0]:Boolean" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@isInstanceOf[T0]:Boolean" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -524,11 +553,45 @@
         <span class="name">ne</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@ne(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@ne(x$1:AnyRef):Boolean" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="in.tamchow.turing.TuringCommand#nextState" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="nextState:String"></a>
+      <a id="nextState:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">nextState</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@nextState:String" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="in.tamchow.turing.TuringCommand#nextValue" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="nextValue:String"></a>
+      <a id="nextValue:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">nextValue</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@nextValue:String" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
     </li><li name="scala.AnyRef#notify" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="notify():Unit"></a>
       <a id="notify():Unit"></a>
@@ -541,7 +604,7 @@
         <span class="name">notify</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@notify():Unit" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@notify():Unit" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -558,52 +621,28 @@
         <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@notifyAll():Unit" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@notifyAll():Unit" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
-    </li><li name="in.tamchow.turing.UniversalTuringMachine#runForStepsOrTillHalt" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="runForStepsOrTillHalt(steps:Int):List[Array[String]]"></a>
-      <a id="runForStepsOrTillHalt(Int):List[Array[String]]"></a>
+    </li><li name="in.tamchow.turing.TuringCommand#stateMatchesEveryThing" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="stateMatchesEveryThing():Boolean"></a>
+      <a id="stateMatchesEveryThing():Boolean"></a>
       <h4 class="signature">
       <span class="modifier_kind">
         <span class="modifier"></span>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">runForStepsOrTillHalt</span><span class="params">(<span name="steps">steps: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.collection.immutable.List">List</span>[<span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Predef.String">String</span>]]</span>
+        <span class="name">stateMatchesEveryThing</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@runForStepsOrTillHalt(steps:Int):List[Array[String]]" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@stateMatchesEveryThing():Boolean" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
-      <p class="shortcomment cmt">Runs the program for the specified number of steps
-or till the program halts (if the specified number of steps is negative)
-</p><div class="fullcomment"><div class="comment cmt"><p>Runs the program for the specified number of steps
-or till the program halts (if the specified number of steps is negative)
-</p></div><dl class="paramcmts block"><dt class="param">steps</dt><dd class="cmt"><p>the number of steps for which the program is run.
-             Supply negative values to run till halt</p></dd><dt>returns</dt><dd class="cmt"><p>the history of the tape in each step as a <span class="extype" name="List">List</span> of <span class="extype" name="Array">Array</span>s of <span class="extype" name="String">String</span>s</p></dd></dl></div>
-    </li><li name="in.tamchow.turing.UniversalTuringMachine#runStep" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="runStep():Boolean"></a>
-      <a id="runStep():Boolean"></a>
-      <h4 class="signature">
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">def</span>
-      </span>
-      <span class="symbol">
-        <span class="name">runStep</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
-      </span>
-      </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@runStep():Boolean" title="Permalink" target="_top">
-        <img src="../../../lib/permalink.png" alt="Permalink" />
-      </a>
-    </span>
-      <p class="shortcomment cmt">Runs one step of a program
-</p><div class="fullcomment"><div class="comment cmt"><p>Runs one step of a program
-</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>true if there are more steps possible, else false</p></dd></dl></div>
+      
     </li><li name="scala.AnyRef#synchronized" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="synchronized[T0](x$1:=&gt;T0):T0"></a>
       <a id="synchronized[T0](⇒T0):T0"></a>
@@ -616,29 +655,12 @@ or till the program halts (if the specified number of steps is negative)
         <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>)</span><span class="result">: <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@synchronized[T0](x$1:=&gt;T0):T0" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@synchronized[T0](x$1:=&gt;T0):T0" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
-    </li><li name="in.tamchow.turing.UniversalTuringMachine#tape" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="tape:Array[String]"></a>
-      <a id="tape:Array[String]"></a>
-      <h4 class="signature">
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">def</span>
-      </span>
-      <span class="symbol">
-        <span class="name">tape</span><span class="result">: <span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
-      </span>
-      </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@tape:Array[String]" title="Permalink" target="_top">
-        <img src="../../../lib/permalink.png" alt="Permalink" />
-      </a>
-    </span>
-      
-    </li><li name="scala.AnyRef#toString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+    </li><li name="in.tamchow.turing.TuringCommand#toString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="toString():String"></a>
       <a id="toString():String"></a>
       <h4 class="signature">
@@ -650,11 +672,28 @@ or till the program halts (if the specified number of steps is negative)
         <span class="name">toString</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@toString():String" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@toString():String" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> → AnyRef → Any</dd></dl></div>
+    </li><li name="in.tamchow.turing.TuringCommand#valueMatchesEverything" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="valueMatchesEverything():Boolean"></a>
+      <a id="valueMatchesEverything():Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">valueMatchesEverything</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@valueMatchesEverything():Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
     </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="wait():Unit"></a>
       <a id="wait():Unit"></a>
@@ -667,7 +706,7 @@ or till the program halts (if the specified number of steps is negative)
         <span class="name">wait</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@wait():Unit" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@wait():Unit" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -690,7 +729,7 @@ or till the program halts (if the specified number of steps is negative)
         <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>, <span name="arg1">arg1: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@wait(x$1:Long,x$2:Int):Unit" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@wait(x$1:Long,x$2:Int):Unit" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -713,7 +752,7 @@ or till the program halts (if the specified number of steps is negative)
         <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@wait(x$1:Long):Unit" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@wait(x$1:Long):Unit" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -726,23 +765,23 @@ or till the program halts (if the specified number of steps is negative)
         </dd></dl></div>
     </li><li name="scala.Predef.ArrowAssoc#→" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="→[B](y:B):(A,B)"></a>
-      <a id="→[B](B):(UniversalTuringMachine,B)"></a>
+      <a id="→[B](B):(TuringCommand,B)"></a>
       <h4 class="signature">
       <span class="modifier_kind">
         <span class="modifier"></span>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span title="gt4s: $u2192" class="implicit">→</span><span class="tparams">[<span name="B">B</span>]</span><span class="params">(<span name="y">y: <span class="extype" name="scala.Predef.ArrowAssoc.→.B">B</span></span>)</span><span class="result">: (<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>, <span class="extype" name="scala.Predef.ArrowAssoc.→.B">B</span>)</span>
+        <span title="gt4s: $u2192" class="implicit">→</span><span class="tparams">[<span name="B">B</span>]</span><span class="params">(<span name="y">y: <span class="extype" name="scala.Predef.ArrowAssoc.→.B">B</span></span>)</span><span class="result">: (<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>, <span class="extype" name="scala.Predef.ArrowAssoc.→.B">B</span>)</span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../index.html#in.tamchow.turing.UniversalTuringMachine@→[B](y:B):(A,B)" title="Permalink" target="_top">
+      <a href="../../../index.html#in.tamchow.turing.TuringCommand@→[B](y:B):(A,B)" title="Permalink" target="_top">
         <img src="../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt class="implicit">Implicit information</dt><dd>
-            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a> to
-            <span class="extype" name="scala.Predef.ArrowAssoc">ArrowAssoc</span>[<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>] performed by method ArrowAssoc in scala.Predef.
+            This member is added by an implicit conversion from <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> to
+            <span class="extype" name="scala.Predef.ArrowAssoc">ArrowAssoc</span>[<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>] performed by method ArrowAssoc in scala.Predef.
             
           </dd><dt>Definition Classes</dt><dd>ArrowAssoc</dd></dl></div>
     </li></ol>
@@ -761,19 +800,19 @@ or till the program halts (if the specified number of steps is negative)
             </div>
         <div class="conversion" name="scala.Predef.any2stringadd">
               <h3>Inherited by implicit conversion any2stringadd from
-                <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a> to <span class="extype" name="scala.Predef.any2stringadd">any2stringadd</span>[<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>]
+                <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> to <span class="extype" name="scala.Predef.any2stringadd">any2stringadd</span>[<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>]
               </h3>
             </div><div class="conversion" name="scala.Predef.StringFormat">
               <h3>Inherited by implicit conversion StringFormat from
-                <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a> to <span class="extype" name="scala.Predef.StringFormat">StringFormat</span>[<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>]
+                <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> to <span class="extype" name="scala.Predef.StringFormat">StringFormat</span>[<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>]
               </h3>
             </div><div class="conversion" name="scala.Predef.Ensuring">
               <h3>Inherited by implicit conversion Ensuring from
-                <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a> to <span class="extype" name="scala.Predef.Ensuring">Ensuring</span>[<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>]
+                <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> to <span class="extype" name="scala.Predef.Ensuring">Ensuring</span>[<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>]
               </h3>
             </div><div class="conversion" name="scala.Predef.ArrowAssoc">
               <h3>Inherited by implicit conversion ArrowAssoc from
-                <a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a> to <span class="extype" name="scala.Predef.ArrowAssoc">ArrowAssoc</span>[<a href="" class="extype" name="in.tamchow.turing.UniversalTuringMachine">UniversalTuringMachine</a>]
+                <a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a> to <span class="extype" name="scala.Predef.ArrowAssoc">ArrowAssoc</span>[<a href="" class="extype" name="in.tamchow.turing.TuringCommand">TuringCommand</a>]
               </h3>
             </div>
         </div>
